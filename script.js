@@ -24,7 +24,7 @@ add_book.addEventListener("click",function(event){
     event.preventDefault();
     const div = document.createElement("div");
     div.setAttribute("class","book-container");
-    div.innerHTML = `<h1>${book_title_input.value}</h1>
+    div.innerHTML = `<h2>${book_title_input.value}</h2>
     <h5>${book_author_input.value}</h5
     <p>${book_description_input.value}</p>
     <button onclick="deletebook(event)">Delete</button>`
