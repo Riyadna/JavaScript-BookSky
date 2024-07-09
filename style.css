@@ -23,6 +23,8 @@ body{
     border-radius: 10px;
     color: white;
     margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .book-container h2{
@@ -120,6 +122,7 @@ body{
 
 .popup-box input:focus{
     outline: none;
+    background-color:#FD6569;
 }
 
 .popup-box textarea:focus{
